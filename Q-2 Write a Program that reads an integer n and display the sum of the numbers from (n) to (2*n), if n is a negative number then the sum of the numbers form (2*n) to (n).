@@ -1,0 +1,7 @@
+def forloop(start,end):
+    sum = 0
+    for i in range(start,end):
+        sum += i
+    return(sum)
+n = int(input("Enter number:"))
+print(forloop(n,2*n) if n>0 else forloop(2*n,n))
