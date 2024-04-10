@@ -1,0 +1,13 @@
+str = input("Enter String:")
+d = {'No. of uppercases:':0,'No. of lowercases:':0,'No. of alphabets:':0,'No. of digits:':0}
+for i in str:
+    if i.isupper():
+        d['No. of uppercases:'] += 1
+    elif i.islower():
+        d['No. of lowercases:'] += 1
+    if i.isalpha():
+        d['No. of alphabets:'] += 1
+    elif i.isdigit():
+        d['No. of digits:'] += 1
+for i in d:
+    print(i,d[i])
