@@ -1,0 +1,4 @@
+list,sum = [int(input("Enter Number:")) for i in range(int(input("Enter number of terms to find mean from:")))],0
+for i in list:
+    sum+=i
+print(sum/len(list))

@@ -1,0 +1,6 @@
+list = [int(input("Enter Number:")) for i in range(int(input("Enter number of terms to find minimum number from:")))]
+num=list[0]
+for i in list:
+    if i<num:
+        num = i
+print(num)
