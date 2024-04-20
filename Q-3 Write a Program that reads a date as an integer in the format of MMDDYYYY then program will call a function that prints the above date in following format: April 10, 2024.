@@ -1,4 +1,4 @@
 date = input("Enter date in format MMDDYYYY:")
-int(date)
+int(date)                ##Checker for integer values
 months = {'01':'January','02':'Feburary','03':'March','04':'April','05':'May','06':'June','07':'July','08':'August','09':'September','10':'October','11':'November','12':'December'}
 print(("Date is: " + months[date[:2]] + ' ' + date[2:4] + ' ,' + date[4:]) if (date[:2] in months and len(date) == 8) else "Please recheck your date length or check if your month is valid.")
