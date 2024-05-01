@@ -3,3 +3,4 @@ print(' '.join(list(i.capitalize() for i in input("Enter the string:").split()))
 s = input("Enter the string:")
 nstr = list(i.capitalize() for i in s.split())
 print(' '.join(nstr))
+
