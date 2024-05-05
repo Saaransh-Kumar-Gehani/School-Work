@@ -1,0 +1,10 @@
+from random import randint
+while True:
+    user = int(input("Guess a number between 1 to 9:"))
+    if user not in range(1,10):
+        print("Invalid choice. Please Guess number between 1 to 9.")
+        continue
+    comp = randint(1,9)
+    print("The computer guessed:",comp)
+    if user != comp: print("Computer couldn't guess your number ;-;")
+    else: print("Computer guessed your number!!")
