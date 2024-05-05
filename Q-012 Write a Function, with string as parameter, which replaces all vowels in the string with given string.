@@ -1,0 +1,11 @@
+def replvowels(str1,s):
+    s1 = ''
+    for i in str1:
+        if i in 'aeoiu':
+            s1 += s
+        else:
+            s1 += i
+    return s1
+st = input("Enter string:")
+re = input("Enter replace with value:")
+print("You entered:",st,f"\nAfter replacing with {re}:",replvowels(st,re))
