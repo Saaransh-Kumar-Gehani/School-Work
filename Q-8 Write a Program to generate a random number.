@@ -1,0 +1,5 @@
+from random import randint
+st = input("Enter range for generating number(separate by space):")
+a, b = int(st.split(' ')[0]), int(st.split(' ')[-1])
+if a < b: print("Random nubmer is", randint(a, b))
+else: print("Random number is", randint(b, a))
